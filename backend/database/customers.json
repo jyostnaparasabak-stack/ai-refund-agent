@@ -1,0 +1,152 @@
+[
+{
+"id": "C001",
+"name": "Aarav Sharma",
+"email": "aarav.sharma@example.com",
+"account_age_days": 1245,
+"vip_status": true,
+"total_orders": 47,
+"previous_refunds": 1,
+"phone": "+91-9876543210"
+},
+{
+"id": "C002",
+"name": "Priya Nair",
+"email": "priya.nair@example.com",
+"account_age_days": 320,
+"vip_status": false,
+"total_orders": 12,
+"previous_refunds": 0,
+"phone": "+91-9123456780"
+},
+{
+"id": "C003",
+"name": "Rohan Mehta",
+"email": "rohan.mehta@example.com",
+"account_age_days": 890,
+"vip_status": true,
+"total_orders": 39,
+"previous_refunds": 2,
+"phone": "+91-9988776655"
+},
+{
+"id": "C004",
+"name": "Sneha Reddy",
+"email": "sneha.reddy@example.com",
+"account_age_days": 145,
+"vip_status": false,
+"total_orders": 8,
+"previous_refunds": 0,
+"phone": "+91-9012345678"
+},
+{
+"id": "C005",
+"name": "Vikram Singh",
+"email": "vikram.singh@example.com",
+"account_age_days": 670,
+"vip_status": false,
+"total_orders": 21,
+"previous_refunds": 1,
+"phone": "+91-9765432109"
+},
+{
+"id": "C006",
+"name": "Ananya Patel",
+"email": "ananya.patel@example.com",
+"account_age_days": 1120,
+"vip_status": true,
+"total_orders": 44,
+"previous_refunds": 0,
+"phone": "+91-9345678901"
+},
+{
+"id": "C007",
+"name": "Karthik Iyer",
+"email": "karthik.iyer@example.com",
+"account_age_days": 75,
+"vip_status": false,
+"total_orders": 3,
+"previous_refunds": 0,
+"phone": "+91-9234567890"
+},
+{
+"id": "C008",
+"name": "Meera Joshi",
+"email": "meera.joshi@example.com",
+"account_age_days": 540,
+"vip_status": false,
+"total_orders": 17,
+"previous_refunds": 2,
+"phone": "+91-9456781234"
+},
+{
+"id": "C009",
+"name": "Arjun Verma",
+"email": "arjun.verma@example.com",
+"account_age_days": 1380,
+"vip_status": true,
+"total_orders": 50,
+"previous_refunds": 1,
+"phone": "+91-9871203456"
+},
+{
+"id": "C010",
+"name": "Divya Menon",
+"email": "divya.menon@example.com",
+"account_age_days": 210,
+"vip_status": false,
+"total_orders": 11,
+"previous_refunds": 0,
+"phone": "+91-9567812340"
+},
+{
+"id": "C011",
+"name": "Rahul Kapoor",
+"email": "rahul.kapoor@example.com",
+"account_age_days": 980,
+"vip_status": false,
+"total_orders": 29,
+"previous_refunds": 3,
+"phone": "+91-9789012345"
+},
+{
+"id": "C012",
+"name": "Pooja Das",
+"email": "pooja.das@example.com",
+"account_age_days": 410,
+"vip_status": false,
+"total_orders": 15,
+"previous_refunds": 1,
+"phone": "+91-9312345678"
+},
+{
+"id": "C013",
+"name": "Nikhil Rao",
+"email": "nikhil.rao@example.com",
+"account_age_days": 60,
+"vip_status": false,
+"total_orders": 2,
+"previous_refunds": 0,
+"phone": "+91-9898765432"
+},
+{
+"id": "C014",
+"name": "Fatima Khan",
+"email": "fatima.khan@example.com",
+"account_age_days": 760,
+"vip_status": false,
+"total_orders": 25,
+"previous_refunds": 2,
+"phone": "+91-9678901234"
+},
+{
+"id": "C015",
+"name": "Aditya Chatterjee",
+"email": "aditya.chatterjee@example.com",
+"account_age_days": 1325,
+"vip_status": false,
+"total_orders": 33,
+"previous_refunds": 1,
+"phone": "+91-9432109876"
+}
+]

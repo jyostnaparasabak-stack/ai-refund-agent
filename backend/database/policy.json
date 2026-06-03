@@ -1,0 +1,22 @@
+{
+"max_auto_approve_amount": 500,
+"escalation_threshold": 500,
+"final_sale_refundable": false,
+"return_window_days": 30,
+"approved_reasons": [
+"Defective product",
+"Wrong item shipped",
+"Item damaged in transit",
+"Not as described"
+],
+"denied_reasons": [
+"Changed mind after 30 days",
+"Final sale item",
+"Used product with no defect"
+],
+"vip_benefits": {
+"extended_return_days": 60,
+"higher_limit": 1000
+},
+"require_human_review_above": 500
+}

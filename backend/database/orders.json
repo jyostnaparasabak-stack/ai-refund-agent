@@ -1,0 +1,272 @@
+[
+{
+"id": "ORD001",
+"customer_id": "C001",
+"product_name": "Wireless Noise-Cancelling Headphones",
+"price": 249.99,
+"purchase_date": "2026-06-01",
+"status": "delivered",
+"final_sale": false,
+"category": "electronics"
+},
+{
+"id": "ORD002",
+"customer_id": "C002",
+"product_name": "Running Shoes",
+"price": 89.95,
+"purchase_date": "2026-05-31",
+"status": "shipped",
+"final_sale": false,
+"category": "sports"
+},
+{
+"id": "ORD003",
+"customer_id": "C003",
+"product_name": "Smartwatch",
+"price": 349.5,
+"purchase_date": "2026-05-25",
+"status": "delivered",
+"final_sale": true,
+"category": "electronics"
+},
+{
+"id": "ORD004",
+"customer_id": "C004",
+"product_name": "Cotton Hoodie",
+"price": 45.0,
+"purchase_date": "2026-05-30",
+"status": "delivered",
+"final_sale": false,
+"category": "clothing"
+},
+{
+"id": "ORD005",
+"customer_id": "C005",
+"product_name": "Mystery Thriller Novel",
+"price": 18.99,
+"purchase_date": "2026-05-20",
+"status": "shipped",
+"final_sale": false,
+"category": "books"
+},
+{
+"id": "ORD006",
+"customer_id": "C006",
+"product_name": "Air Purifier",
+"price": 179.99,
+"purchase_date": "2026-05-18",
+"status": "delivered",
+"final_sale": true,
+"category": "home"
+},
+{
+"id": "ORD007",
+"customer_id": "C007",
+"product_name": "Yoga Mat",
+"price": 29.99,
+"purchase_date": "2026-05-29",
+"status": "delivered",
+"final_sale": false,
+"category": "sports"
+},
+{
+"id": "ORD008",
+"customer_id": "C008",
+"product_name": "Bluetooth Speaker",
+"price": 79.95,
+"purchase_date": "2026-05-28",
+"status": "shipped",
+"final_sale": false,
+"category": "electronics"
+},
+{
+"id": "ORD009",
+"customer_id": "C009",
+"product_name": "Gaming Monitor",
+"price": 499.99,
+"purchase_date": "2026-05-12",
+"status": "delivered",
+"final_sale": true,
+"category": "electronics"
+},
+{
+"id": "ORD010",
+"customer_id": "C010",
+"product_name": "Ceramic Dinner Set",
+"price": 64.5,
+"purchase_date": "2026-05-10",
+"status": "delivered",
+"final_sale": false,
+"category": "home"
+},
+{
+"id": "ORD011",
+"customer_id": "C011",
+"product_name": "Denim Jacket",
+"price": 72.0,
+"purchase_date": "2026-05-08",
+"status": "shipped",
+"final_sale": false,
+"category": "clothing"
+},
+{
+"id": "ORD012",
+"customer_id": "C012",
+"product_name": "Cookbook Collection",
+"price": 32.75,
+"purchase_date": "2026-05-05",
+"status": "delivered",
+"final_sale": false,
+"category": "books"
+},
+{
+"id": "ORD013",
+"customer_id": "C013",
+"product_name": "Laptop Backpack",
+"price": 54.99,
+"purchase_date": "2026-05-03",
+"status": "shipped",
+"final_sale": true,
+"category": "clothing"
+},
+{
+"id": "ORD014",
+"customer_id": "C014",
+"product_name": "Electric Kettle",
+"price": 39.99,
+"purchase_date": "2026-05-01",
+"status": "delivered",
+"final_sale": false,
+"category": "home"
+},
+{
+"id": "ORD015",
+"customer_id": "C015",
+"product_name": "Fitness Tracker",
+"price": 119.99,
+"purchase_date": "2026-04-29",
+"status": "delivered",
+"final_sale": false,
+"category": "electronics"
+},
+{
+"id": "ORD016",
+"customer_id": "C001",
+"product_name": "Basketball",
+"price": 24.99,
+"purchase_date": "2026-04-26",
+"status": "shipped",
+"final_sale": false,
+"category": "sports"
+},
+{
+"id": "ORD017",
+"customer_id": "C003",
+"product_name": "4K Action Camera",
+"price": 289.0,
+"purchase_date": "2026-04-24",
+"status": "delivered",
+"final_sale": true,
+"category": "electronics"
+},
+{
+"id": "ORD018",
+"customer_id": "C006",
+"product_name": "Premium Bedsheet Set",
+"price": 58.99,
+"purchase_date": "2026-04-21",
+"status": "delivered",
+"final_sale": false,
+"category": "home"
+},
+{
+"id": "ORD019",
+"customer_id": "C009",
+"product_name": "Mechanical Keyboard",
+"price": 129.99,
+"purchase_date": "2026-04-19",
+"status": "shipped",
+"final_sale": false,
+"category": "electronics"
+},
+{
+"id": "ORD020",
+"customer_id": "C002",
+"product_name": "Historical Fiction Book",
+"price": 16.49,
+"purchase_date": "2026-04-16",
+"status": "delivered",
+"final_sale": false,
+"category": "books"
+},
+{
+"id": "ORD021",
+"customer_id": "C005",
+"product_name": "Winter Parka",
+"price": 189.99,
+"purchase_date": "2026-04-13",
+"status": "delivered",
+"final_sale": false,
+"category": "clothing"
+},
+{
+"id": "ORD022",
+"customer_id": "C008",
+"product_name": "Table Lamp",
+"price": 27.5,
+"purchase_date": "2026-04-10",
+"status": "shipped",
+"final_sale": true,
+"category": "home"
+},
+{
+"id": "ORD023",
+"customer_id": "C011",
+"product_name": "Tennis Racket",
+"price": 149.95,
+"purchase_date": "2026-04-07",
+"status": "delivered",
+"final_sale": false,
+"category": "sports"
+},
+{
+"id": "ORD024",
+"customer_id": "C014",
+"product_name": "Science Encyclopedia",
+"price": 41.25,
+"purchase_date": "2026-04-05",
+"status": "delivered",
+"final_sale": false,
+"category": "books"
+},
+{
+"id": "ORD025",
+"customer_id": "C015",
+"product_name": "Tablet Computer",
+"price": 599.99,
+"purchase_date": "2026-06-01",
+"status": "shipped",
+"final_sale": false,
+"category": "electronics"
+},
+{
+  "id": "ORD026",
+  "customer_id": "C005",
+  "product_name": "4K OLED Television",
+  "price": 899.99,
+  "purchase_date": "2026-05-28",
+  "status": "delivered",
+  "final_sale": false,
+  "category": "electronics"
+},
+{
+  "id": "ORD027",
+  "customer_id": "C008",
+  "product_name": "Gaming Laptop",
+  "price": 1299.99,
+  "purchase_date": "2026-05-30",
+  "status": "delivered",
+  "final_sale": false,
+  "category": "electronics"
+}
+]
