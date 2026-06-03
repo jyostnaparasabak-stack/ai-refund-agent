@@ -7,7 +7,7 @@ Fully containerized — runs with a single command.
 ## Quick Start
 
 **1. Clone the repository**
-git clone https://github.com/YOUR_USERNAME/ai-refund-agent.git
+git clone [https://github.com/YOUR_USERNAME/ai-refund-agent.git](https://github.com/jyostnaparasabak-stack/ai-refund-agent)
 cd ai-refund-agent
 
 **2. Add your API key**
