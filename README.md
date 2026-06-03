@@ -45,6 +45,36 @@ LangGraph Agent + Gemini LLM
 ↓
 Decision logged → Admin Dashboard
 
+┌─────────────────────────────────────────┐
+│         FRONTEND (Streamlit :8501)       │
+│  Customer chat window + Admin dashboard  │
+└──────────────┬──────────────────────────┘
+│ HTTP POST /refund
+┌──────────────▼──────────────────────────┐
+│         BACKEND (FastAPI :8000)          │
+│  Request validation + routing + logging  │
+└──────────────┬──────────────────────────┘
+│
+┌──────────────▼──────────────────────────┐
+│       AGENT LAYER (LangGraph)            │
+│                                          │
+│  evaluate_policy()  ← deterministic      │
+│  ├── final_sale?      → DENIED           │
+│  ├── return window?   → DENIED           │
+│  ├── amount > $500?   → ESCALATED        │
+│  └── all clear?       → APPROVED         │
+│                                          │
+│  Gemini LLM ← explains decision only     │
+│  Tools: lookup_customer, lookup_order,   │
+│          check_policy                    │
+└──────────────┬──────────────────────────┘
+│
+┌──────────────▼──────────────────────────┐
+│         DATA LAYER (JSON files)          │
+│  customers.json · orders.json ·          │
+│  policy.json                             │
+└─────────────────────────────────────────┘
+
 ## Agent Loop
 
 1. Request arrives with customer_id, order_id, reason, amount
