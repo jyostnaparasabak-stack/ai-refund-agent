@@ -6,7 +6,6 @@ from pathlib import Path
 
 API_URL = os.getenv("API_URL", "http://localhost:8000")
 
-# Load orders locally so we can auto-fill price
 def load_orders():
     try:
         orders_path = Path(__file__).parent.parent / "backend" / "database" / "orders.json"
@@ -24,14 +23,10 @@ st.set_page_config(
 
 page = st.sidebar.radio("Navigation", ["🛒 Customer Portal", "📊 Admin Dashboard"])
 
-# ─────────────────────────────────────────────
-# PAGE 1 — Customer Portal
-# ─────────────────────────────────────────────
 if page == "🛒 Customer Portal":
     st.title("🛒 Refund Request Portal")
     st.caption("Submit your refund request below. Our AI agent will process it instantly.")
 
-    # Policy info box
     st.info("📋 **Policy:** Refunds over $500 require human escalation · Final sale items cannot be refunded · 30-day return window (VIP: 60 days)")
 
     with st.form("refund_form"):
@@ -105,18 +100,6 @@ if page == "🛒 Customer Portal":
                 except Exception as e:
                     st.error(f"Unexpected error: {str(e)}")
 
-    # Quick test guide
-    st.divider()
-    st.subheader("🧪 Quick Test Guide")
-    col1, col2, col3 = st.columns(3)
-    with col1:
-        st.success("✅ **APPROVED**\nC001 · ORD001\nAmount: $200\nReason: Product defective")
-    with col2:
-        st.error("❌ **DENIED**\nC003 · ORD003\nAmount: $100\nReason: Changed mind\n*(final sale item)*")
-    with col3:
-        st.warning("⏳ **ESCALATED**\nC015 · ORD025\nAmount: $600\nReason: Wrong item shipped")
-
-    # Session history
     if "history" in st.session_state and st.session_state.history:
         st.divider()
         st.subheader("📋 This Session's Requests")
@@ -124,9 +107,6 @@ if page == "🛒 Customer Portal":
             icon = "🟢" if item["decision"] == "APPROVED" else "🔴" if item["decision"] == "DENIED" else "🟡"
             st.write(f"{icon} **{item['order_id']}** — {item['decision']} — {item['timestamp'][:19]}")
 
-# ─────────────────────────────────────────────
-# PAGE 2 — Admin Dashboard
-# ─────────────────────────────────────────────
 elif page == "📊 Admin Dashboard":
     st.title("📊 Admin Dashboard")
     st.caption("All agent decisions and reasoning logs.")
